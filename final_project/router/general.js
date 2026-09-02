@@ -168,8 +168,7 @@ async function getBooksByTitle(title) {
   } catch (error) {
     console.log("Error retrieving books by title:", error.message);
   }
-});
-
+}
 
 module.exports.general = public_users;
 module.exports.getAllBooks = getAllBooks;
